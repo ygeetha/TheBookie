@@ -9,6 +9,7 @@
 		<resource.folder>${project.build.directory}/${project.name}_resources</resource.folder>
 		<db.folder>${basedir}/opt/h2/databases</db.folder>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<artifact_url></artifact_url>
 	</properties>
 
 	<profiles>
@@ -96,6 +97,11 @@
 					<path>/locanda</path>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.6.0.1398</version>
+		      </plugin>
 		</plugins>
 	</build>
 
@@ -452,6 +458,20 @@
 			<version>1.3.171</version>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+  	  	<repository>
+     	  		 <id>central</id>
+    	   		 <name>LocandaDeploy</name>
+   	    		 <url>http://${artifact_url}:8081/artifactory/locanda</url>
+  	 	 </repository>
+  	  	<snapshotRepository>
+       		 <id>snapshots</id>
+       		 <name>LocandaDeploy</name>
+     		   <url>http://${artifact_url}:8081/artifactory/locanda</url>
+   	   		</snapshotRepository>
+	</distributionManagement>
+	
 	<organization>
 		<name>Sardegna Ricerche</name>
 		<url>http://www.sardegnaricerche.it</url>
