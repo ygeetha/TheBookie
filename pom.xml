@@ -49,7 +49,7 @@
 			</resource>
 			<resource>
 				<directory>${basedir}/solr</directory>
-				<targetPath>${resource.folder}/solr</targetPath>
+				<targetPath>solr</targetPath>
 			</resource>
 			<resource>
 				<directory>${basedir}/h2</directory>
