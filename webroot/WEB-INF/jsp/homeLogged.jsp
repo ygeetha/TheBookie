@@ -37,7 +37,7 @@ Entity = {name: "planner",
           <div id="col3_content" class="clearfix">
             <div class="header_section">
               <s:url action="goAddNewBooking.action?sect=planner" var="urlGoAddNewBooking"></s:url>
-              <span class="name_section"><s:text name="Planning" /></span>
+              <span class="name_section"><s:text name="The Bookie" /></span>
               <a class="btn_right_<s:property value="#request.locale.getLanguage()" />" href="<s:property value="urlGoAddNewBooking"/>" title="Add new booking"/></a>
             </div>
             <div id='calendar'></div>

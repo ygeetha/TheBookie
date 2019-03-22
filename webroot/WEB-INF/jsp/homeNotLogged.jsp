@@ -24,9 +24,9 @@
       	<p><s:text name="homeWelcomeMessage"/>.</p>
       	<p id="home_images">
       	<a href="<s:property value="url_login"/>">
-	      	<img width="220" src="images/pan_small.jpg" alt="img_home1"/>
-	        <img width="220" src="images/horse_small.jpg" alt="img_home2"/>
-	        <img width="220" src="images/water_small.jpg" alt="img_home3"/>
+	      	<img width="400" src="images/pan_small.jpg" alt="img_home1"/>
+	  <!--      <img width="220" src="images/horse_small.jpg" alt="img_home2"/>
+	        <img width="220" src="images/water_small.jpg" alt="img_home3"/> -->
         </a>
       	</p>
       </div>
