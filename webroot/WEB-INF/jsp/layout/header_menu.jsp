@@ -65,7 +65,7 @@
 	<div class="page_margins">
 		<div class="page">
 		<div class="head-background"><span>
-							<img src="images/logo.png" alt="" class="left" height="100%"/>
+							<img src="images/pan_small.jpg" width="100%"/></span>
 						</span></div>
 			<div id="header" role="banner">
 				<div id="topnav" role="contentinfo">
@@ -77,8 +77,9 @@
 					<a href="<s:property value="url_home"/>?sect=planner">
 						
 						<span>
+						<img src="images/logo.png" alt="" class="left" height="100%"/>
 						</span>
-						<img src="images/pan_small.jpg" width="100%"/></span>
+						
 					</a>
 					<em>&nbsp;</em>
 				</h1>
