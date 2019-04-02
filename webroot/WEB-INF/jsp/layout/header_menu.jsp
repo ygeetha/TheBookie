@@ -74,6 +74,9 @@
 						<span>
 							<img src="images/logo.png" alt="" class="left" height="100%"/>
 						</span>	
+						<span>
+						</span>
+						<img src="images/pan_small.jpg" width="100%"/></span>
 					</a>
 					<em>&nbsp;</em>
 				</h1>
