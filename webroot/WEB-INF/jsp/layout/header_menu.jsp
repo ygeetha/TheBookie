@@ -62,29 +62,23 @@
 	<s:url action="goExport" var="url_export"></s:url>
 	<s:url action="goAboutInfo" var="url_about"></s:url>
 
-	<div class="page_margins">
-		<div class="page">
-		<h1><a href="<s:property value="url_home"/>?sect=planner">
-			<span><img src="images/logo.png" class="left" height="15%"/>
-			<div id="topnav" role="contentinfo">
+	<div class="page">
 			<div id="header" role="banner">
+				<div id="topnav" role="contentinfo">
 					<span><a title="logout" class="logout" href="<s:property value="url_logout"/>"></a></span>
-					<div class="langMenu"></div></div>
-			</span>
-			</a>
-			<em>&nbsp;</em>
-			<div class="head-background"><span>
-							<img src="images/pan_small.jpg" width="150%"/></span>
-			</span></div>
-			
-			
-			
-						
-				
-	    </h1>
-		
-				
-				
+					<div class="langMenu"></div>
+				</div>
+				<h1>
+					<a href="<s:property value="url_home"/>?sect=planner">
+						<span>
+							<img src="images/logo.png" alt="" class="left" height="100%"/>
+						</span>	
+					</a>
+					<em>&nbsp;</em>
+				</h1>
+				<div class="header-img">
+				<img src="images/pan_small.jpg" width="100%"></img>
+			</div>
 			</div>
 			<!-- begin: main navigation #nav -->
 			<div id="nav" role="navigation">
