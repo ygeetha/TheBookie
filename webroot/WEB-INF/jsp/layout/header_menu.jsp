@@ -65,20 +65,22 @@
 	<div class="page_margins">
 		<div class="page">
 		<h1><a href="<s:property value="url_home"/>?sect=planner">
-			<span><img src="images/logo.png" alt="" class="left" height="20%"/>
+			<span><img src="images/logo.png" class="left" height="15%"/>
+			<div id="topnav" role="contentinfo">
+			<div id="header" role="banner">
+					<span><a title="logout" class="logout" href="<s:property value="url_logout"/>"></a></span>
+					<div class="langMenu"></div></div>
 			</span>
 			</a>
 			<em>&nbsp;</em>
 			<div class="head-background"><span>
-							<img src="images/pan_small.jpg" width="100%"/></span>
-						</span></div>
-			<div id="topnav" role="contentinfo">
+							<img src="images/pan_small.jpg" width="150%"/></span>
+			</span></div>
 			
-			<div id="header" role="banner">
-					<span><a title="logout" class="logout" href="<s:property value="url_logout"/>"></a></span>
-					<div class="langMenu"></div>
+			
+			
 						
-				</div>
+				
 	    </h1>
 		
 				
