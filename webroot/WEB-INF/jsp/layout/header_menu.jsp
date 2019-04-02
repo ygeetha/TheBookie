@@ -65,7 +65,7 @@
 	<div class="page_margins">
 		<div class="page">
 		<h1><a href="<s:property value="url_home"/>?sect=planner">
-			<span><img src="images/logo.png" alt="" class="left" height="100%"/>
+			<span><img src="images/logo.png" alt="" class="left" height="30%"/>
 			</span>
 			</a>
 			<em>&nbsp;</em>
