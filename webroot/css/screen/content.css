@@ -312,7 +312,7 @@ moz-border-radius:6px;
 }
 
 ul.sub_menu li:hover,ul.sub_menu li a:hover {
-background:none;
+background:green;
 background-color:#AFD775;
 }
 
