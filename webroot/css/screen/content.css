@@ -317,7 +317,7 @@ background-color:#AFD775;
 }
 
 #header {
-background:none;
+background:green;
 height:5px;
 }
 
@@ -382,6 +382,8 @@ float:right;
 
 .left {
 float:left;
+padding-left: initial;
+text-align:left;
 }
 
 .center {
