@@ -77,7 +77,7 @@
 					<em>&nbsp;</em>
 				</h1>
 				<div class="header-img">
-				<img src="images/pan_small.jpg" width="100%"></img>
+				<!--  <img src="images/pan_small.jpg" width="100%"></img> -->
 			</div>
 			</div>
 			<!-- begin: main navigation #nav -->
