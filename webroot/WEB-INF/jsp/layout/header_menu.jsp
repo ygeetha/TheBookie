@@ -72,6 +72,7 @@
 					<a href="<s:property value="url_home"/>?sect=planner">
 						<span>
 							<img src="images/logo.png" alt="" class="left" height="100%"/>
+							<img src="images/labos.png" id="labos" alt="Laboratorio Open Source" class="left" height="100%" width="15%"/>
 						</span>	
 					</a>
 					<em>&nbsp;</em>
@@ -80,8 +81,7 @@
 				<!--  <img src="images/pan_small.jpg" width="100%"></img> -->
 				</div>
 			</div>
-		</div>
-</div>
+
 			<!-- begin: main navigation #nav -->
 			<div id="nav" role="navigation">
 				<div class="hlist">
@@ -117,5 +117,7 @@
 					</ul>
 				</div>
 			</div>
+		</div>
+</div>
 			<!-- end: main navigation -->
 			<!-- begin: main content area #main -->
