@@ -61,7 +61,7 @@
 	<s:url action="goOnlineBookings" var="url_onlinebookings"></s:url>
 	<s:url action="goExport" var="url_export"></s:url>
 	<s:url action="goAboutInfo" var="url_about"></s:url>
-
+<div class="page_margins">
 	<div class="page">
 			<div id="header" role="banner">
 				<div id="topnav" role="contentinfo">
@@ -78,8 +78,10 @@
 				</h1>
 				<div class="header-img">
 				<!--  <img src="images/pan_small.jpg" width="100%"></img> -->
+				</div>
 			</div>
-			</div>
+		</div>
+</div>
 			<!-- begin: main navigation #nav -->
 			<div id="nav" role="navigation">
 				<div class="hlist">

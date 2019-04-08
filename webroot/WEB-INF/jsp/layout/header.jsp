@@ -72,7 +72,7 @@
       			<h1>
         			<span>
           				<img src="images/logo.png" alt="" class="left" height="100%"/>
-          				<img src="images/labos.png" id="labos" alt="Laboratorio Open Source" class="left" height="100%" width="80%"/>
+          				<img src="images/labos.png" id="labos" alt="Laboratorio Open Source" class="left" height="100%" width="15%"/>
         			</span>
         			<em>&nbsp;</em>
       			</h1> 
