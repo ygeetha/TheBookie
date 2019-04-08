@@ -22,7 +22,7 @@
       <div id="home">
       <!--	<h1><s:text name="titleExtended"/></h1> -->
       <!--	<p><s:text name="homeWelcomeMessage"/>.</p> -->
-      <p>Welcome to The Bookie App </p>
+      <h1><p>Welcome To The Bookie App </p></h1>
       	<p id="home_images">
       	<a href="<s:property value="url_login"/>">
 	    <!--  	<img width="400" src="images/pan_small.jpg" alt="img_home1"/> -->
