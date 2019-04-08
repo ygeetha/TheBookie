@@ -29,7 +29,7 @@ Entity = {name: "planner",
 <jsp:include page="layout/header_menu.jsp" />
       <div id="main">
 	      <div class="header-img">
-					  <img src="images/pan_small.jpg" width="100%"></img>
+					  <img src="images/pan_small.jpg" height="50%" width="100%"></img>
 		  </div>
         <!-- begin: #col1 - first float column -->
         <div id="col1" role="complementary">
