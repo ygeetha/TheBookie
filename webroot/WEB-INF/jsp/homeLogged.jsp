@@ -28,6 +28,9 @@ Entity = {name: "planner",
 </script>
 <jsp:include page="layout/header_menu.jsp" />
       <div id="main">
+	      <div class="header-img">
+					  <img src="images/pan_small.jpg" width="100%"></img>
+		  </div>
         <!-- begin: #col1 - first float column -->
         <div id="col1" role="complementary">
           <div id="col1_content" class="clearfix"></div>
@@ -45,4 +48,6 @@ Entity = {name: "planner",
               <div style="text-align: center"><img src="images/loading.gif"/></div>
             </div>
           </div>
+          </div>
+           </div>
 <jsp:include page="layout/footer.jsp" />     
