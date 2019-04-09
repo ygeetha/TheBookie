@@ -94,7 +94,7 @@
 						</li>
 						<li id="guests">
 						 <!-- <a href="<s:property value="url_findallguest"/>?sect=guests"><s:text name="guests" /></a> -->
-						 <s:text name="Coming Soon" />
+						 <a></a><s:text name="Coming Soon" /></a>
 						    
 						</li>
 						<li id="settings"><a href="#"><s:text name="settings" /><span class="menu-dropdown ui-button-icon-secondary ui-icon ui-icon-triangle-1-s"></span></a>
