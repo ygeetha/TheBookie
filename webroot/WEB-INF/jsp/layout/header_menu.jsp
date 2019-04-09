@@ -71,7 +71,7 @@
 				<h1>
 					<a href="<s:property value="url_home"/>?sect=planner">
 						<span>
-							<img src="images/logo.png" alt="" class="left" height="100%"/>
+							<!--  <img src="images/logo.png" alt="" class="left" height="100%"/> -->
 							<img src="images/labos.png" id="labos" alt="Laboratorio Open Source" class="left" height="100%" width="15%"/>
 						</span>	
 					</a>
