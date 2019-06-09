@@ -467,6 +467,18 @@
 			<version>1.3.171</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+  	  	<repository>
+     	  		 <id>central</id>
+    	   		 <name>LocandaDeploy</name>
+   	    		 <url>http://${artifact_url}:8081/artifactory/locanda</url>
+  	 	 </repository>
+  	  	<snapshotRepository>
+       		 <id>snapshots</id>
+       		 <name>LocandaDeploy</name>
+     		   <url>http://${artifact_url}:8081/artifactory/locanda</url>
+   	   		</snapshotRepository>
+	</distributionManagement>
 	<organization>
 		<name>Sardegna Ricerche</name>
 		<url>http://www.sardegnaricerche.it</url>
