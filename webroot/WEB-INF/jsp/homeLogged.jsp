@@ -28,9 +28,6 @@ Entity = {name: "planner",
 </script>
 <jsp:include page="layout/header_menu.jsp" />
       <div id="main">
-	      <div class="header-img">
-					  <img src="images/pan_small.jpg" height="250" width="100%"></img>
-		  </div>
         <!-- begin: #col1 - first float column -->
         <div id="col1" role="complementary">
           <div id="col1_content" class="clearfix"></div>
@@ -40,7 +37,7 @@ Entity = {name: "planner",
           <div id="col3_content" class="clearfix">
             <div class="header_section">
               <s:url action="goAddNewBooking.action?sect=planner" var="urlGoAddNewBooking"></s:url>
-          <!--    <span class="name_section"><s:text name="The Bookie" /></span> -->
+              <span class="name_section"><s:text name="planner" /></span>
               <a class="btn_right_<s:property value="#request.locale.getLanguage()" />" href="<s:property value="urlGoAddNewBooking"/>" title="Add new booking"/></a>
             </div>
             <div id='calendar'></div>
@@ -48,6 +45,4 @@ Entity = {name: "planner",
               <div style="text-align: center"><img src="images/loading.gif"/></div>
             </div>
           </div>
-          </div>
-           </div>
 <jsp:include page="layout/footer.jsp" />     

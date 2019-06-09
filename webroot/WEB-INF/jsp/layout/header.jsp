@@ -71,11 +71,9 @@
       			</div>
       			<h1>
         			<span>
-          				<!--  <img src="images/logo.png" alt="" class="left" height="100%"/> -->
-          				<img src="images/labos.png" id="labos" alt="Laboratorio Open Source" class="left" height="100%" width="15%"/>
+          				<img src="images/logo.png" alt="" class="left" height="100%"/>
         			</span>
         			<em>&nbsp;</em>
       			</h1> 
-			<!--  <img width="100%" src="images/pan_small.jpg" alt="img_home1" height="100%"> -->
     		</div>
     		<!-- begin: main navigation #nav -->

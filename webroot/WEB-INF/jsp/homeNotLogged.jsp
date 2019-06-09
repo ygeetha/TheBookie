@@ -20,15 +20,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <jsp:include page="layout/header.jsp"/>
       <div id="home">
-      <!--	<h1><s:text name="titleExtended"/></h1> -->
-      <!--	<p><s:text name="homeWelcomeMessage"/>.</p> -->
-      <h1><p>Welcome To The Bookie App </p></h1>
+      	<h1><s:text name="titleExtended"/></h1>
+      	<p><s:text name="homeWelcomeMessage"/>.</p>
       	<p id="home_images">
       	<a href="<s:property value="url_login"/>">
-	    <!--  	<img width="400" src="images/pan_small.jpg" alt="img_home1"/> -->
-		<img width="100%" src="images/pan_small.jpg" alt="img_home1" height="100%">
-	  <!--      <img width="220" src="images/horse_small.jpg" alt="img_home2"/>
-	        <img width="220" src="images/water_small.jpg" alt="img_home3"/> -->
+	      	<img width="220" src="images/pan_small.jpg" alt="img_home1"/>
+	        <img width="220" src="images/horse_small.jpg" alt="img_home2"/>
+	        <img width="220" src="images/water_small.jpg" alt="img_home3"/>
         </a>
       	</p>
       </div>

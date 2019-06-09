@@ -312,18 +312,17 @@ moz-border-radius:6px;
 }
 
 ul.sub_menu li:hover,ul.sub_menu li a:hover {
-background:green;
+background:none;
 background-color:#AFD775;
 }
 
 #header {
-background:orange;
+background:none;
 height:5px;
 }
 
 .hlist {
 background-color:#fff;
-padding-top: 10 px;
 }
 
 .yform {
@@ -382,8 +381,6 @@ float:right;
 
 .left {
 float:left;
-padding-left: initial;
-text-align:left;
 }
 
 .center {
@@ -1059,7 +1056,7 @@ margin:0 7px;
 }
 
 img#labos {
-margin: -0px;
+margin:20px 7px;
 }
 
 img#eu {
